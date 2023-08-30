@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Empréstimos - Financeira Local</title>
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho semelhante às outras páginas -->
+    </header>
+    <main>
+        <section class="services">
+            <div class="service">
+                <img src="assets/images/emprestimo-pessoal.jpg" alt="Empréstimo Pessoal">
+                <h2>Empréstimo Pessoal</h2>
+                <p>Obtenha dinheiro rápido e sem burocracia.</p>
+            </div>
+            <div class="service">
+                <img src="assets/images/emprestimo-consignado.jpg" alt="Empréstimo Consignado">
+                <h2>Empréstimo Consignado</h2>
+                <p>Empréstimo com desconto em folha de pagamento.</p>
+            </div>
+        </section>
+
+        <section class="simulation">
+            <h2>Simulação de Empréstimo</h2>
+            <label for="tipo-emprestimo">Tipo de Empréstimo:</label>
+            <select id="tipo-emprestimo">
+                <option value="pessoal">Empréstimo Pessoal</option>
+                <option value="consignado">Empréstimo Consignado</option>
+            </select>
+            <label for="valor-emprestimo">Valor Desejado:</label>
+            <input type="number" id="valor-emprestimo">
+            <label for="meses-pagamento">Meses para Pagamento:</label>
+            <input type="number" id="meses-pagamento">
+            <p id="resultado-parcela">Valor da parcela: R$ 0.00</p>
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé semelhante às outras páginas -->
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
