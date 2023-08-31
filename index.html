@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="assets/images/logo.png" type="image/png">
-    <title>Financeira Website</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/images/logo.png" type="image/png" />
+    <title>Finança Fácil</title>
+  </head>
+  <body>
     <header>
-        
-        <img src="assets/images/logo.png" alt="Logo da Financeira">
-        <!-- Menu lateral esquerdo -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="emprestimos.html">Empréstimos</a></li>
-                <li><a href="seja-nosso-cliente.html">Seja nosso cliente</a></li>
-            </ul>
+      <!-- Cabeçalho com posicionamento e estilo -->
+      <div class="header-container">
+        <img src="assets/images/logo.png" alt="Logo da Financeira" />
+        <!-- Menu lateral direito -->
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="emprestimos.html">Empréstimos</a></li>
+            <li><a href="seja-nosso-cliente.html">Seja nosso cliente</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
     <main>
-        <!-- Área de destaque para ofertas -->
-        <section class="highlight">
-            <h1>Ofertas Especiais</h1>
-            <p>Confira nossas melhores ofertas de empréstimo!</p>
-        </section>
-        
-        <!-- Serviços principais -->
-        <section class="services">
-            <!-- Box de cada serviço -->
-            <div class="service">
-                <img src="assets/images/emprestimo-img.png" alt="Empréstimo Pessoal">
-                <h2>Empréstimo Pessoal</h2>
-                <p>Obtenha dinheiro rápido e sem burocracia.</p>
-                <a href="emprestimos.html">Saiba mais</a>
-            </div>
-            <!-- Repetir para os outros serviços -->
-        </section>
+      <!-- Área de destaque para ofertas -->
+      <section class="highlight">
+        <h1>Ofertas Especiais</h1>
+        <p>Confira nossas melhores ofertas de empréstimo!</p>
+      </section>
+
+      <!-- Serviços principais -->
+      <section class="services">
+        <!-- Box de cada serviço -->
+        <div class="service">
+          <img
+            src="assets/images/emprestimo-img.png"
+            alt="Empréstimo Pessoal"
+          />
+          <h2>Empréstimo Pessoal</h2>
+          <p>Obtenha dinheiro rápido e sem burocracia.</p>
+          <a href="emprestimos.html">Saiba mais</a>
+        </div>
+        <!-- Repetir para os outros serviços -->
+      </section>
     </main>
     <footer>
-        <!-- Rodapé com contatos e redes sociais -->
+      <!-- Rodapé com contatos e redes sociais -->
+      <div class="footer-container">
+        <div class="contact">
+          <h3>Contato</h3>
+          <p>Telefone: (11)94993-7080</p>
+          <p>E-mail: vinicius.stringue.depaula@gmail.com</p>
+        </div>
+        <div class="social-media">
+          <h3>Redes Sociais</h3>
+          <a href="#" class="whatsapp-icon"
+            ><img src="assets/images/whatsapp.png" alt="WhatsApp"
+          /></a>
+          <a href="#" class="email-icon"
+            ><img src="assets/images/email.png" alt="Email"
+          /></a>
+          <a href="#" class="github-icon"
+            ><img src="assets/images/github.png" alt="GitHub"
+          /></a>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
